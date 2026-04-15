@@ -1,11 +1,11 @@
-**Python code Reviewer**
-    Інструмент для автоматичного аналізу Python-коду за допомогою LLM.
+**Python code Reviewer**  
+Інструмент для автоматичного аналізу Python-коду за допомогою LLM.  
 
-    Технологічний стек
+**Технологічний стек**  
 
-    Backend: google.genai, pydantic.
-    Frontend: Streamlit.
-    Менеджер пакетів: uv.
+Backend: google.genai, pydantic.  
+Frontend: Streamlit.  
+Менеджер пакетів: uv.
 
 Встановлення та запуск
 1. **Клонуйте репозиторій:**
@@ -14,13 +14,13 @@
     cd python_code_reviewer
     ```
 2. **Встановіть залежності:**
-
+    ```bash
     uv sync
-
+    ```
 3. **Запустіть додаток:**
-
+    ```bash
     uv run streamlit run src/reviewer/client_part.py
-
+    ```
 Функціонал
 
 Бот вміє:
