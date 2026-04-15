@@ -10,7 +10,7 @@ Frontend: Streamlit.
 Встановлення та запуск
 1. **Клонуйте репозиторій:**
     ```bash
-    git clone https://github.com/VallDrous/LLM.git
+    git clone https://github.com/VallDrous/python_code_reviewer.git
     cd python_code_reviewer
     ```
 2. **Встановіть залежності:**
